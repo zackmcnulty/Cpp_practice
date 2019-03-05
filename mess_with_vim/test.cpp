@@ -4,8 +4,21 @@ using std::cout;
 using std::endl;
 
 // List available functions
-int multiply(int array[], int size);
 
+namespace zack{
+	int factorial(int n) {
+		if (n == 0 or n == 1) {
+			return n;
+		} else {
+			return n*factorial(n-1);
+		}
+	}
+};
+namespace mari{
+	int factorial(int m) {
+		return -1;
+	}
+};
 
 
 int main(){
@@ -19,16 +32,14 @@ int main(){
 	for (int x : array){
 		cout << x << endl;
 	}
-	cout << "function time" << endl;
+	//using name spaces... Differentiating between functions with same names
+	//common libraries might use the same names, and you might want to define your
+	//own version too! This keeps the compiler from getting confused
+	using namespace zack;
+	cout << factorial(5) << endl;
+	
+	cout << mari::factorial(5) << endl;
 
-	cout << multiply(array, 5) << endl;
+	
 
 };
-
-int multiply(int array[], int size){
-	int product = 1;
-	for (int i = 0; i < size; i++){
-		product *= array[i];
-	}
-	return product;
-}
