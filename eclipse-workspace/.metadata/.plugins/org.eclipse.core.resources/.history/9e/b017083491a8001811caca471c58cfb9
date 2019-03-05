@@ -1,0 +1,18 @@
+/*
+ * HelloWorld.cpp
+ *
+ *  Created on: Aug 24, 2018
+ *      Author: zackmcnulty
+ */
+
+#include "HelloWorld.h"
+
+HelloWorld::HelloWorld() {
+	// TODO Auto-generated constructor stub
+
+}
+
+HelloWorld::~HelloWorld() {
+	// TODO Auto-generated destructor stub
+}
+

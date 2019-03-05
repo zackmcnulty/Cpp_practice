@@ -1,0 +1,1329 @@
+[2018-08-24 18:57:58] Executing bootstrap tasks
+[2018-08-24 18:57:58] Java(TM) SE Runtime Environment 1.8.0_171-b11
+[2018-08-24 18:57:58] Product org.eclipse.products.epp.package.cpp.oxygen
+[2018-08-24 18:57:58] Bundle org.eclipse.oomph.setup 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-08-24 18:57:58] Bundle org.eclipse.oomph.setup.core 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-08-24 18:57:58] Bundle org.eclipse.oomph.setup.p2 1.9.0.v20171202-1121, build=3282, branch=f99b41819cc9f86beec6b54bf453173fc2d4acef
+[2018-08-24 18:57:58] Performing P2 Director (Eclipse IDE for C/C++ Developers (Oxygen))
+[2018-08-24 18:57:58] Offline = false
+[2018-08-24 18:57:58] Mirrors = true
+[2018-08-24 18:57:58] Resolving 32 requirements from 3 repositories to /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse
+[2018-08-24 18:57:58] Requirement epp.package.cpp [4.7.0,4.8.0)
+[2018-08-24 18:57:58] Requirement org.eclipse.platform.feature.group [4.7.0,4.8.0)
+[2018-08-24 18:57:58] Requirement org.eclipse.rcp.feature.group [4.7.0,4.8.0)
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.autotools.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.build.crossgcc.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.debug.standalone.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.debug.ui.memory.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.launch.remote.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.cdt.mylyn.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.egit.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.cdt.libhover.feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.changelog.c.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.gcov.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.gprof.feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.rpm.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.linuxtools.valgrind.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn.team_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.mylyn_feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.rse.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tm.terminal.feature.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tracecompass.gdbtrace.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tracecompass.lttng2.control.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tracecompass.lttng2.kernel.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.tracecompass.lttng2.ust.feature.group
+[2018-08-24 18:57:58] Requirement org.eclipse.oomph.setup.feature.group
+[2018-08-24 18:57:58] Repository http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-08-24 18:57:58] Repository http://download.eclipse.org/releases/oxygen/201804111000
+[2018-08-24 18:57:58] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-08-24 18:58:02] Calculating requirements and dependencies.
+[2018-08-24 18:58:03] Computing prerequisite plan
+[2018-08-24 18:58:14] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (435B)
+[2018-08-24 18:58:15] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S3409-1.9.0-M4/ (8.54kB)
+[2018-08-24 18:58:15] Collecting 3 artifacts from http://download.eclipse.org/technology/epp/packages/oxygen
+[2018-08-24 18:58:15] Downloading epp.package.cpp.executable.cocoa.macosx.x86_64
+[2018-08-24 18:58:15] Downloading org.eclipse.epp.package.cpp.feature
+[2018-08-24 18:58:15] Downloading org.eclipse.epp.package.cpp
+[2018-08-24 18:58:15] Fetching org.eclipse.epp.package.cpp.feature_4.7.3.20180405-1200.jar from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/features/ (18.95kB)
+[2018-08-24 18:58:15] Fetching org.eclipse.epp.package.cpp_4.7.3.20180405-1200.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/plugins/ (61.55kB)
+[2018-08-24 18:58:16] Fetching epp.package.cpp.executable.cocoa.macosx.x86_64_4.7.3.20180405-1200 from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/binary/ (10.71kB)
+[2018-08-24 18:58:16] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/technology/epp/packages/oxygen/ at 147kb/s
+[2018-08-24 18:58:16] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/technology/epp/packages/oxygen/ at 70kb/s
+[2018-08-24 18:58:16] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/technology/epp/packages/oxygen/ at 22kb/s
+[2018-08-24 18:58:16] Collected 3 artifacts for http://download.eclipse.org/technology/epp/packages/oxygen in 1.448s
+[2018-08-24 18:58:16] Collecting 9 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.base.edit
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup.core
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.resources
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup.editor
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup.edit
+[2018-08-24 18:58:16] Downloading org.eclipse.oomph.setup.core
+[2018-08-24 18:58:16] Downloading org.eclipse.nebula.widgets.tablecombo
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup_1.9.0.v20180203-0645.jar.pack.gz from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (129.6kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.201803121317.jar from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (35.42kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup.edit_1.9.0.v20180308-1210.jar.pack.gz from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (46.86kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup.editor_1.9.0.v20180203-0645.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (124.3kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup.core_1.9.0.v20180310-0545.jar from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/features/ (28.63kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup_1.9.0.v20180310-0545.jar from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/features/ (28.5kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.base.edit_1.9.0.v20180308-1210.jar.pack.gz from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (24.06kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.resources_1.9.0.v20180307-0733.jar.pack.gz from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (41.43kB)
+[2018-08-24 18:58:17] Fetching org.eclipse.oomph.setup.core_1.9.0.v20180310-0545.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S3409-1.9.0-M4/plugins/ (93.81kB)
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://downloads.yoctoproject.org/eclipse-full/oomph/drops/milestone/S3409-1.9.0-M4/ at 411kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 385kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://ftp.osuosl.org/pub/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 129kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S3409-1.9.0-M4/ at 125kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 118kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 71kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 70kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 52kb/s
+[2018-08-24 18:58:18] Mirrored 1 artifacts from http://ftp.ussg.iu.edu/eclipse/oomph/drops/milestone/S3409-1.9.0-M4/ at 48kb/s
+[2018-08-24 18:58:18] Collected 9 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 1.401s
+[2018-08-24 18:58:18] Collecting 232 artifacts from http://download.eclipse.org/releases/oxygen/201804111000
+[2018-08-24 18:58:18] Downloading org.eclipse.platform_root
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt_root
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gdb.ui
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.debug.standalone
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gdb
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.remote.core
+[2018-08-24 18:58:18] Downloading org.eclipse.tracecompass.lttng2.common.core
+[2018-08-24 18:58:18] Downloading org.eclipse.tools.templates.core
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gdb
+[2018-08-24 18:58:18] Downloading org.eclipse.linuxtools.profiling.ui.capability
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gnu.debug
+[2018-08-24 18:58:18] Fetching org.eclipse.tracecompass.lttng2.common.core_1.1.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (9.1kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.gdb.ui_7.0.0.201802261533.jar.pack.gz from http://mirrors.xmission.com/eclipse/releases/oxygen/201804111000/plugins/ (8.26kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.remote.core_1.0.1.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (12.61kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.debug.standalone_9.4.3.201802261533.jar from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201804111000/features/ (13.04kB)
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.build.crossgcc
+[2018-08-24 18:58:18] Fetching org.eclipse.linuxtools.profiling.ui.capability_1.0.0.201803061555.jar from http://eclipse.mirror.rafal.ca/releases/oxygen/201804111000/plugins/ (9.93kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.gdb_7.0.0.201802261533.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (11.56kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt_root_9.4.3.201802261533 from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201804111000/binary/ (2.35kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.gdb_9.4.3.201802261533.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201804111000/features/ (13.03kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.cdt.gnu.debug_9.4.3.201802261533.jar from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201804111000/features/ (13.05kB)
+[2018-08-24 18:58:18] Fetching org.eclipse.tools.templates.core_1.1.0.201802082100.jar from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201804111000/plugins/ (11.36kB)
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gnu.dsf
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.debug.ui.memory
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.gnu.build
+[2018-08-24 18:58:18] Downloading org.eclipse.cdt.launch.remote
+[2018-08-24 18:58:18] Downloading org.eclipse.rse
+[2018-08-24 18:58:18] Downloading org.eclipse.linuxtools.gcov
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.gprof.feature
+[2018-08-24 18:58:19] Downloading org.eclipse.cdt.native
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.build.crossgcc_9.4.3.201802261533.jar from http://www.gtlib.gatech.edu/pub/eclipse/releases/oxygen/201804111000/features/ (13.06kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.gnu.dsf_9.4.3.201802261533.jar from http://mirrors.ibiblio.org/eclipse/releases/oxygen/201804111000/features/ (13.08kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.gprof.feature_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.3kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.native_9.4.3.201802261533.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.32kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.cdt
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt_9.4.3.201802261533.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.36kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.debug.ui.memory_9.4.3.201802261533.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201804111000/features/ (13.09kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.gnu.build_9.4.3.201802261533.jar from http://mirror.switch.ch/eclipse/releases/oxygen/201804111000/features/ (13.1kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.gcov_6.2.1.201803061555.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201804111000/features/ (13.3kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.cdt.platform
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.cdt.libhover.devhelp.feature
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.gdbtrace
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.cdt.libhover.feature
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.platform_9.4.3.201802261533.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.36kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.cdt.libhover.devhelp.feature_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.39kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.gdbtrace_3.3.0.201803071910.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.44kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.cdt.libhover.feature_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.44kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.rse_3.5.0.201403100950.jar from http://mirrors.nic.cz/eclipse/releases/oxygen/201804111000/plugins/ (13.22kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.ctf
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.tmf.ctf
+[2018-08-24 18:58:19] Downloading org.eclipse.cdt.autotools
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.changelog.c
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.autotools_9.4.3.201802261533.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.47kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.profiling
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.ctf_3.3.0.201803071910.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (13.45kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.tmf.ctf_3.3.0.201803071910.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (13.45kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.changelog.c_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.48kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.profiling_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.49kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.lttng2.control
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.lttng2.ust
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.valgrind
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.lttng2.kernel
+[2018-08-24 18:58:19] Downloading org.eclipse.tracecompass.tmf
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.lttng2.ust_3.3.0.201803071910.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.54kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.lttng2.control_3.3.0.201803071910.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.53kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.valgrind_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.57kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.lttng2.kernel_3.3.0.201803071910.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.64kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.linuxtools.valgrind_6.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.57kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.tracecompass.lttng2.kernel_3.3.0.201803071910.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (13.64kB)
+[2018-08-24 18:58:19] Fetching org.eclipse.cdt.launch.remote_9.4.3.201802261533.jar from http://ftp.fau.de/eclipse/releases/oxygen/201804111000/features/ (13.12kB)
+[2018-08-24 18:58:19] Downloading org.eclipse.linuxtools.rpm
+[2018-08-24 18:58:20] Downloading org.eclipse.linuxtools.changelog.cparser
+[2018-08-24 18:58:20] Downloading org.eclipse.cdt.codan.ui.cxx
+[2018-08-24 18:58:20] Downloading org.eclipse.tracecompass.gdbtrace.ui
+[2018-08-24 18:58:20] Fetching org.eclipse.tracecompass.tmf_3.3.0.201803071910.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (13.72kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.tracecompass.analysis.counters.ui
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.changelog.cparser_2.7.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.01kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.cdt.codan.ui.cxx_3.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.41kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.rpm_6.2.1.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (13.74kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.connectorservice.local
+[2018-08-24 18:58:20] Fetching org.eclipse.cdt.codan.ui.cxx_3.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.41kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.rpm_6.2.1.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (13.74kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.cdt.build.gcc.ui
+[2018-08-24 18:58:20] Fetching org.eclipse.tracecompass.gdbtrace.ui_1.1.0.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (14.51kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.tracecompass.tmf.remote.core
+[2018-08-24 18:58:20] Downloading org.eclipse.cdt.core.native
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.connectorservice.local_2.1.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (15.43kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.cdt.build.gcc.ui_1.0.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (15.63kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.cdt.mylyn
+[2018-08-24 18:58:20] Downloading org.eclipse.linuxtools.tools.launch.ui
+[2018-08-24 18:58:20] Fetching org.eclipse.tracecompass.tmf.remote.core_2.0.1.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (16.34kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.cdt.core.native_5.10.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (16.82kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.tracecompass.analysis.counters.ui_0.0.3.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (14.64kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.linuxtools.dataviewers.piechart
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.processes.local
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.files.ssh
+[2018-08-24 18:58:20] Downloading org.eclipse.cdt.build.gcc.core
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.tools.launch.ui_2.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (17.99kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.cdt.mylyn_5.19.0.v20170411-2108.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (17.85kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.shells.ssh
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.shells.telnet
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.processes.dstore
+[2018-08-24 18:58:20] Downloading org.eclipse.rse.subsystems.shells.local
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.dataviewers.piechart_2.0.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (18.23kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.subsystems.files.ssh_2.1.300.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (18.74kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.view.feature
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.subsystems.processes.local_2.1.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (18.55kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.subsystems.shells.telnet_1.2.300.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (18.98kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.subsystems.shells.ssh_2.1.400.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (18.98kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.rse.subsystems.processes.dstore_2.1.400.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (19.07kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.linuxtools.gcov.launch
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.feature
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.connector.cdtserial.feature
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.control.feature
+[2018-08-24 18:58:20] Fetching org.eclipse.tm.terminal.view.feature_4.3.0.201706140544.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (19.73kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.linuxtools.gcov.launch_1.2.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (19.8kB)
+[2018-08-24 18:58:20] Fetching org.eclipse.tm.terminal.feature_4.3.0.201706140544.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (19.87kB)
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.connector.local.feature
+[2018-08-24 18:58:20] Downloading org.eclipse.tm.terminal.connector.telnet.feature
+[2018-08-24 18:58:20] Fetching org.eclipse.tm.terminal.connector.cdtserial.feature_4.3.0.201706140544.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (19.89kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.tm.terminal.connector.ssh.feature
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.control.feature_4.3.0.201706140544.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (19.91kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.ssh
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.local
+[2018-08-24 18:58:21] Fetching org.eclipse.cdt.build.gcc.core_1.0.0.201802261533.jar.pack.gz from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201804111000/plugins/ (18.95kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.subsystems.shells.local_2.1.400.201403100950.jar from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201804111000/plugins/ (19.08kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.ftp
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.ssh.feature_4.3.0.201706140544.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (20.03kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.local.feature_4.3.0.201706140544.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (19.97kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.telnet.feature_4.3.0.201706140544.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (20.01kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.telnet
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.ssh_3.7.0.201704251225.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (20.04kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.core
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.ftp_3.7.1.201704251225.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (20.1kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.local_3.7.0.201704251225.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (20.06kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.dstore
+[2018-08-24 18:58:21] Downloading org.eclipse.tools.templates.freemarker
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.telnet_3.7.0.201704251225.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (20.12kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.cdt.libhover.library.docs
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.subsystems.shells.dstore
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.efs.ui
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.valgrind.helgrind
+[2018-08-24 18:58:21] Downloading org.eclipse.cdt.core.macosx
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.core_3.7.3.201704251225.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (20.29kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.services.telnet
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.efs.ui_2.1.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (21.49kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tools.templates.freemarker_1.0.0.201802082100.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (20.39kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.tools.launch.core
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.cdt.libhover.library.docs_1.0.2.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (20.94kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.services.telnet_2.0.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (23.7kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.valgrind.core
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.valgrind.helgrind_1.1.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (22.29kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.subsystems.shells.dstore_2.1.400.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (21.2kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.gprof.launch
+[2018-08-24 18:58:21] Downloading org.eclipse.cdt.debug.ui.memory.search
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.connectorservice.telnet
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.dstore_3.7.0.201704251225.jar from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201804111000/features/ (20.37kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.tools.launch.core_3.3.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (23.83kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.cdt.debug.ui.memory.search_1.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (25.2kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.cdt.core.macosx_5.3.0.201802261533.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201804111000/plugins/ (22.64kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rcp_root
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.valgrind.memcheck
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.gprof.launch_1.2.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (24.47kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.subsystems.files.local
+[2018-08-24 18:58:21] Downloading org.eclipse.tm.terminal.connector.local
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.connectorservice.telnet_1.2.300.201505220524.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (25.45kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.valgrind.core_1.1.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (24.28kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.valgrind.memcheck_1.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (26.23kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.tm.terminal.connector.cdtserial
+[2018-08-24 18:58:21] Downloading org.eclipse.tracecompass.lttng2.ust.ui
+[2018-08-24 18:58:21] Downloading org.eclipse.linuxtools.profiling.ui
+[2018-08-24 18:58:21] Downloading org.eclipse.tracecompass.analysis.counters.core
+[2018-08-24 18:58:21] Downloading org.eclipse.rse.subsystems.processes.core
+[2018-08-24 18:58:21] Fetching org.eclipse.tracecompass.lttng2.ust.ui_3.0.3.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.22kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.tm.terminal.connector.process
+[2018-08-24 18:58:21] Fetching org.eclipse.linuxtools.profiling.ui_3.2.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (29.68kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.subsystems.files.local_2.1.300.201403251512.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (26.79kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.local_4.2.0.201609191434.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (27kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.cdtserial_4.3.0.201706121839.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (28.63kB)
+[2018-08-24 18:58:21] Fetching org.eclipse.tracecompass.analysis.counters.core_1.2.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.89kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.cdt.build.crossgcc
+[2018-08-24 18:58:21] Fetching org.eclipse.tracecompass.analysis.counters.core_1.2.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.89kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.cdt.managedbuilder.gnu.ui
+[2018-08-24 18:58:21] Downloading org.eclipse.dstore.extra
+[2018-08-24 18:58:21] Downloading org.eclipse.remote
+[2018-08-24 18:58:21] Fetching org.eclipse.tm.terminal.connector.process_4.2.0.201609191434.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (30.4kB)
+[2018-08-24 18:58:21] Downloading org.eclipse.cdt.launch.remote
+[2018-08-24 18:58:21] Fetching org.eclipse.rse.subsystems.processes.core_3.1.300.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (30.05kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt
+[2018-08-24 18:58:22] Downloading org.eclipse.rse
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.subsystems.processes.shell.linux
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.launch.remote_2.5.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (31.49kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.efs
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.debug.ui.memory.transport
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt_9.4.3.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (32.29kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.rse_3.7.3.201704251225.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (32.6kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt_9.4.3.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (32.29kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.rse_3.7.3.201704251225.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/features/ (32.6kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.dstore.extra_2.1.400.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (30.74kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.managedbuilder.gnu.ui_8.3.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (30.63kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.common.core
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.efs_2.1.401.201507172212.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (33.12kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.subsystems.processes.shell.linux_1.1.400.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (33.07kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.common.core_3.0.1.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (33.91kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.subsystems.files.ftp
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.debug.ui.memory.transport_2.1.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (33.87kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tools.templates.ui
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.analysis.lami.core
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.codan.checkers
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.subsystems.files.ftp_2.2.100.201601281414.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (35.08kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.linuxtools.dataviewers.charts
+[2018-08-24 18:58:22] Fetching org.eclipse.tools.templates.ui_1.1.1.201802082100.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (35.48kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.subsystems.files.dstore
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.codan.checkers_3.2.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (35.98kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.build.crossgcc_1.1.0.201802261533.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201804111000/plugins/ (17.53kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.tmf.chart.ui
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.subsystems.files.dstore_2.1.300.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (37.99kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.connectorservice.ssh
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.analysis.lami.core_1.0.3.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (35.69kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.linuxtools.valgrind.ui
+[2018-08-24 18:58:22] Fetching org.eclipse.remote_3.0.0.201803060126.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/features/ (31.1kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tm.terminal.view.core
+[2018-08-24 18:58:22] Fetching org.eclipse.linuxtools.dataviewers.charts_6.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (36.72kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.tmf.chart.ui_1.0.3.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (38.34kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.connectorservice.ssh_2.1.300.201505220524.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (40kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.lttng2.kernel.ui
+[2018-08-24 18:58:22] Downloading org.eclipse.rse.services.files.ftp
+[2018-08-24 18:58:22] Fetching org.eclipse.tm.terminal.view.core_4.2.0.201609191434.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (40.89kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.remote.jsch.ui
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.tmf.chart.core
+[2018-08-24 18:58:22] Fetching org.eclipse.linuxtools.valgrind.ui_2.1.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (40.08kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.analysis.graph.ui
+[2018-08-24 18:58:22] Fetching org.eclipse.rse.services.files.ftp_3.0.500.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (42.47kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.doc.user
+[2018-08-24 18:58:22] Fetching org.eclipse.remote.jsch.ui_1.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (20.71kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.doc.user
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.debug.application.doc
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.doc.user_5.4.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (14.52MB)
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.core
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.doc.dev
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.tmf.chart.core_1.0.1.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (15.5kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.lttng2.kernel.ui_1.1.2.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (20.96kB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.doc.user_3.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (10.79MB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.analysis.graph.ui_1.0.5.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (19.89kB)
+[2018-08-24 18:58:22] Downloading org.eclipse.tracecompass.tmf.ui
+[2018-08-24 18:58:22] Downloading org.eclipse.cdt.ui
+[2018-08-24 18:58:22] Fetching org.eclipse.cdt.core_6.4.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (1.57MB)
+[2018-08-24 18:58:22] Fetching org.eclipse.tracecompass.doc.dev_3.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (2.81MB)
+[2018-08-24 18:58:23] Fetching org.eclipse.cdt.debug.application.doc_1.1.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (6.25MB)
+[2018-08-24 18:58:23] Downloading org.eclipse.linuxtools.rpm.ui.editor.doc
+[2018-08-24 18:58:23] Downloading org.eclipse.cdt.autotools.docs
+[2018-08-24 18:58:23] Fetching org.eclipse.cdt.ui_6.3.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (1.89MB)
+[2018-08-24 18:58:23] Downloading org.eclipse.cdt.dsf.gdb
+[2018-08-24 18:58:23] Fetching org.eclipse.tracecompass.tmf.ui_3.3.0.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (665.67kB)
+[2018-08-24 18:58:23] Fetching org.eclipse.linuxtools.rpm.ui.editor.doc_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (1.83MB)
+[2018-08-24 18:58:23] Fetching org.eclipse.cdt.autotools.docs_2.0.2.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (1.83MB)
+[2018-08-24 18:58:23] Fetching org.eclipse.cdt.dsf.gdb_5.4.0.201802261533.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (411.18kB)
+[2018-08-24 18:58:23] Fetching org.eclipse.cdt.doc.user_5.4.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:23] Fetching org.eclipse.tracecompass.doc.user_3.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.cdt.core_6.4.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.tracecompass.doc.dev_3.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.cdt.debug.application.doc_1.1.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.cdt.ui_6.3.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.linuxtools.rpm.ui.editor.doc_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.tracecompass.tmf.ui_3.3.0.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.cdt.autotools.docs_2.0.2.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:24] Fetching org.eclipse.cdt.dsf.gdb_5.4.0.201802261533.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:26] Downloading org.eclipse.rse.ui
+[2018-08-24 18:58:26] Fetching org.eclipse.rse.ui_3.3.400.201704241037.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (1.63MB)
+[2018-08-24 18:58:27] Downloading org.freemarker
+[2018-08-24 18:58:27] Downloading org.eclipse.linuxtools.valgrind.doc
+[2018-08-24 18:58:28] Fetching org.freemarker_2.3.22.v20160210-1233.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (397.33kB)
+[2018-08-24 18:58:28] Downloading org.eclipse.tracecompass.tmf.core
+[2018-08-24 18:58:28] Fetching org.eclipse.linuxtools.valgrind.doc_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (1.3MB)
+[2018-08-24 18:58:28] Fetching org.eclipse.tracecompass.tmf.core_3.3.0.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (216.76kB)
+[2018-08-24 18:58:28] Downloading org.eclipse.linuxtools.changelog.doc
+[2018-08-24 18:58:28] Downloading org.eclipse.linuxtools.gprof.docs
+[2018-08-24 18:58:29] Fetching org.eclipse.linuxtools.gprof.docs_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (534.65kB)
+[2018-08-24 18:58:29] Fetching org.eclipse.linuxtools.changelog.doc_2.7.1.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (720.41kB)
+[2018-08-24 18:58:29] Fetching org.eclipse.linuxtools.valgrind.doc_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/
+[2018-08-24 18:58:29] Downloading org.eclipse.cdt.make.ui
+[2018-08-24 18:58:29] Fetching org.eclipse.cdt.make.ui_7.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (170.38kB)
+[2018-08-24 18:58:29] Downloading org.eclipse.rse.files.ui
+[2018-08-24 18:58:29] Downloading org.eclipse.tracecompass.lttng2.control.ui
+[2018-08-24 18:58:30] Fetching org.eclipse.rse.files.ui_3.2.200.201507172213.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (491.9kB)
+[2018-08-24 18:58:30] Fetching org.eclipse.tracecompass.lttng2.control.ui_1.2.3.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (140.85kB)
+[2018-08-24 18:58:30] Downloading org.eclipse.linuxtools.cdt.libhover.glibc
+[2018-08-24 18:58:30] Fetching org.eclipse.linuxtools.cdt.libhover.glibc_1.2.1.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (482.75kB)
+[2018-08-24 18:58:30] Downloading org.eclipse.rse.services
+[2018-08-24 18:58:30] Downloading org.eclipse.cdt.make.core
+[2018-08-24 18:58:30] Downloading org.eclipse.cdt.managedbuilder.core
+[2018-08-24 18:58:30] Fetching org.eclipse.rse.services_3.3.0.201506120731.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (452.42kB)
+[2018-08-24 18:58:30] Fetching org.eclipse.cdt.managedbuilder.core_8.6.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (435.01kB)
+[2018-08-24 18:58:30] Fetching org.eclipse.cdt.make.core_7.4.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (143.82kB)
+[2018-08-24 18:58:30] Downloading org.eclipse.linuxtools.profiling.docs
+[2018-08-24 18:58:31] Fetching org.eclipse.linuxtools.profiling.docs_1.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (434.52kB)
+[2018-08-24 18:58:31] Downloading org.eclipse.rse.core
+[2018-08-24 18:58:31] Fetching org.eclipse.rse.core_3.3.100.201603151753.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (407.68kB)
+[2018-08-24 18:58:31] Downloading org.eclipse.dstore.core
+[2018-08-24 18:58:31] Fetching org.eclipse.dstore.core_3.4.0.201501311530.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (385.99kB)
+[2018-08-24 18:58:31] Downloading org.eclipse.linuxtools.gcov.docs
+[2018-08-24 18:58:31] Fetching org.eclipse.linuxtools.gcov.docs_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (372.69kB)
+[2018-08-24 18:58:31] Downloading org.eclipse.cdt.dsf.ui
+[2018-08-24 18:58:32] Fetching org.eclipse.cdt.dsf.ui_2.5.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (354.16kB)
+[2018-08-24 18:58:32] Downloading org.eclipse.remote.doc.isv
+[2018-08-24 18:58:32] Fetching org.eclipse.remote.doc.isv_1.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (150.04kB)
+[2018-08-24 18:58:32] Downloading org.eclipse.rse.services.dstore
+[2018-08-24 18:58:32] Downloading org.eclipse.cdt.dsf
+[2018-08-24 18:58:32] Fetching org.eclipse.rse.services.dstore_3.3.0.201406041609.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (341.76kB)
+[2018-08-24 18:58:32] Fetching org.eclipse.cdt.dsf_2.8.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (94.19kB)
+[2018-08-24 18:58:32] Downloading org.eclipse.cdt.debug.ui
+[2018-08-24 18:58:33] Downloading org.eclipse.cdt.autotools.ui
+[2018-08-24 18:58:33] Downloading org.eclipse.cdt.debug.application
+[2018-08-24 18:58:33] Fetching org.eclipse.cdt.debug.ui_8.3.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (332kB)
+[2018-08-24 18:58:33] Downloading org.eclipse.linuxtools.rpm.ui.editor
+[2018-08-24 18:58:33] Fetching org.eclipse.cdt.autotools.ui_2.0.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (318.8kB)
+[2018-08-24 18:58:33] Fetching org.eclipse.linuxtools.rpm.ui.editor_4.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (252.75kB)
+[2018-08-24 18:58:33] Fetching org.eclipse.cdt.debug.application_1.1.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (280.33kB)
+[2018-08-24 18:58:33] Downloading org.eclipse.tm.terminal.view.ui
+[2018-08-24 18:58:33] Fetching org.eclipse.tm.terminal.view.ui_4.3.0.201706130844.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (251.72kB)
+[2018-08-24 18:58:34] Downloading org.eclipse.platform.ide.executable.cocoa.macosx.x86_64
+[2018-08-24 18:58:34] Downloading org.eclipse.rse.importexport
+[2018-08-24 18:58:34] Downloading org.eclipse.cdt.dsf.gdb.ui
+[2018-08-24 18:58:34] Fetching org.eclipse.rse.importexport_1.2.300.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (231.84kB)
+[2018-08-24 18:58:34] Fetching org.eclipse.cdt.dsf.gdb.ui_2.6.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (224.64kB)
+[2018-08-24 18:58:34] Downloading org.eclipse.rse.doc.user
+[2018-08-24 18:58:34] Downloading org.eclipse.cdt.native.serial
+[2018-08-24 18:58:34] Fetching org.eclipse.cdt.native.serial_1.1.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (211.52kB)
+[2018-08-24 18:58:34] Fetching org.eclipse.rse.doc.user_3.4.100.201403101646.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (211.63kB)
+[2018-08-24 18:58:35] Downloading org.antlr.runtime
+[2018-08-24 18:58:35] Downloading org.eclipse.tracecompass.gdbtrace.doc.user
+[2018-08-24 18:58:35] Fetching org.antlr.runtime_3.2.0.v201101311130.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (99.04kB)
+[2018-08-24 18:58:35] Downloading org.eclipse.tm.terminal.control
+[2018-08-24 18:58:35] Fetching org.eclipse.tm.terminal.control_4.3.0.201706130821.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (184.66kB)
+[2018-08-24 18:58:35] Fetching org.eclipse.tracecompass.gdbtrace.doc.user_3.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (183.04kB)
+[2018-08-24 18:58:35] Downloading org.eclipse.cdt.managedbuilder.ui
+[2018-08-24 18:58:35] Downloading org.eclipse.tracecompass.analysis.os.linux.ui
+[2018-08-24 18:58:35] Fetching org.eclipse.cdt.managedbuilder.ui_9.1.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (169.48kB)
+[2018-08-24 18:58:35] Fetching org.eclipse.tracecompass.analysis.os.linux.ui_2.2.1.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (54.02kB)
+[2018-08-24 18:58:35] Downloading org.eclipse.tracecompass.analysis.timing.ui
+[2018-08-24 18:58:35] Downloading org.eclipse.remote.ui
+[2018-08-24 18:58:35] Downloading org.eclipse.rse.shells.ui
+[2018-08-24 18:58:35] Fetching org.eclipse.tracecompass.analysis.timing.ui_2.2.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (50.62kB)
+[2018-08-24 18:58:35] Downloading org.eclipse.tracecompass.tmf.remote.ui
+[2018-08-24 18:58:35] Fetching org.eclipse.remote.ui_2.1.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (53.8kB)
+[2018-08-24 18:58:35] Fetching org.eclipse.rse.shells.ui_3.0.500.201403271554.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (141.48kB)
+[2018-08-24 18:58:35] Downloading org.eclipse.rse.subsystems.files.core
+[2018-08-24 18:58:35] Downloading org.cyberneko.html
+[2018-08-24 18:58:35] Fetching org.eclipse.tracecompass.tmf.remote.ui_1.0.2.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (48.2kB)
+[2018-08-24 18:58:36] Downloading org.eclipse.linuxtools.profiling.launch
+[2018-08-24 18:58:36] Fetching org.eclipse.rse.subsystems.files.core_3.3.1.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (135.12kB)
+[2018-08-24 18:58:36] Fetching org.cyberneko.html_1.9.14.v201105210654.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (131.66kB)
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.statesystem.core
+[2018-08-24 18:58:36] Downloading org.eclipse.linuxtools.gcov.core
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.lttng2.control.core
+[2018-08-24 18:58:36] Fetching org.eclipse.linuxtools.profiling.launch_3.3.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (129.48kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.statesystem.core_3.2.1.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (44.99kB)
+[2018-08-24 18:58:36] Downloading org.swtchart
+[2018-08-24 18:58:36] Fetching org.eclipse.linuxtools.gcov.core_6.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (120.49kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.lttng2.control.core_1.2.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (36.54kB)
+[2018-08-24 18:58:36] Fetching org.swtchart_0.10.0.v201605200358.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (116.24kB)
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.lttng2.kernel.core
+[2018-08-24 18:58:36] Downloading org.eclipse.linuxtools.changelog.core
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.tmf.analysis.xml.ui
+[2018-08-24 18:58:36] Downloading org.eclipse.cdt.debug.core
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.lttng2.kernel.core_2.2.2.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (39.24kB)
+[2018-08-24 18:58:36] Downloading org.apache.commons.net
+[2018-08-24 18:58:36] Fetching org.eclipse.linuxtools.changelog.core_3.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (107.43kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.tmf.analysis.xml.ui_2.1.4.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (39.87kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.cdt.debug.core_8.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (103.74kB)
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.lttng2.ust.core
+[2018-08-24 18:58:36] Fetching org.apache.commons.net_3.2.0.v201305141515.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (99.91kB)
+[2018-08-24 18:58:36] Downloading org.eclipse.linuxtools.rpm.createrepo
+[2018-08-24 18:58:36] Downloading org.eclipse.tracecompass.tmf.analysis.xml.core
+[2018-08-24 18:58:36] Downloading org.eclipse.remote.jsch.core
+[2018-08-24 18:58:36] Downloading org.eclipse.linuxtools.dataviewers
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.lttng2.ust.core_3.3.0.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (39.2kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.linuxtools.dataviewers_6.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (89.79kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.tracecompass.tmf.analysis.xml.core_2.5.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (93.95kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.remote.jsch.core_1.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (35.5kB)
+[2018-08-24 18:58:36] Fetching org.eclipse.linuxtools.rpm.createrepo_1.0.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (95.61kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.remote.telnet.ui
+[2018-08-24 18:58:37] Downloading org.eclipse.linuxtools.gprof
+[2018-08-24 18:58:37] Downloading org.eclipse.tracecompass.analysis.os.linux.core
+[2018-08-24 18:58:37] Downloading org.eclipse.tracecompass.ctf.core
+[2018-08-24 18:58:37] Downloading org.eclipse.cdt.launch
+[2018-08-24 18:58:37] Fetching org.eclipse.linuxtools.gprof_5.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (88.09kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.tracecompass.ctf.core_2.3.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (85.76kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.tracecompass.analysis.os.linux.core_2.5.0.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (87.15kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.cdt.launch_9.2.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (84.04kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.tracecompass.datastore.core
+[2018-08-24 18:58:37] Downloading org.eclipse.remote.core
+[2018-08-24 18:58:37] Fetching org.eclipse.tracecompass.datastore.core_1.1.1.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (30.47kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.remote.telnet.ui_1.0.0.201803060126.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (89.71kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.launchbar.ui
+[2018-08-24 18:58:37] Fetching org.eclipse.remote.core_4.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (80.22kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.launchbar.ui_2.2.0.201711162100.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (80.06kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.linuxtools.valgrind.massif
+[2018-08-24 18:58:37] Downloading org.eclipse.launchbar.core
+[2018-08-24 18:58:37] Downloading org.eclipse.tracecompass.analysis.timing.core
+[2018-08-24 18:58:37] Downloading org.eclipse.remote.telnet.core
+[2018-08-24 18:58:37] Fetching org.eclipse.linuxtools.valgrind.massif_1.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (78.45kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.rse.processes.ui
+[2018-08-24 18:58:37] Fetching org.eclipse.launchbar.core_2.2.0.201711162100.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (76.9kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.cdt.codan.core.cxx
+[2018-08-24 18:58:37] Fetching org.eclipse.remote.telnet.core_1.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (58.86kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.rse.processes.ui_3.0.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (73.83kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.cdt.mylyn.ui
+[2018-08-24 18:58:37] Downloading org.eclipse.tracecompass.analysis.lami.ui
+[2018-08-24 18:58:37] Fetching org.eclipse.cdt.mylyn.ui_3.23.0.v20170411-2108.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (51.57kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.tracecompass.analysis.timing.core_3.1.2.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (29.42kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.rse.subsystems.shells.core
+[2018-08-24 18:58:37] Downloading org.eclipse.rse.connectorservice.dstore
+[2018-08-24 18:58:37] Fetching org.eclipse.tracecompass.analysis.lami.ui_1.0.2.201803071910.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (26.18kB)
+[2018-08-24 18:58:37] Downloading org.eclipse.linuxtools.valgrind.launch
+[2018-08-24 18:58:37] Fetching org.eclipse.rse.subsystems.shells.core_3.1.300.201403271554.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (68.08kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.cdt.codan.core.cxx_3.4.0.201802261533.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (29.95kB)
+[2018-08-24 18:58:37] Fetching org.eclipse.linuxtools.valgrind.launch_3.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (66.86kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.rse.connectorservice.dstore_3.1.301.201403100950.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (67.59kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.linuxtools.rpmstubby
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.debug.ui.memory.memorybrowser
+[2018-08-24 18:58:38] Downloading org.eclipse.rse.dstore.security
+[2018-08-24 18:58:38] Downloading org.eclipse.tracecompass.tmf.ctf.core
+[2018-08-24 18:58:38] Downloading org.eclipse.linuxtools.cdt.libhover
+[2018-08-24 18:58:38] Downloading org.eclipse.rse.services.ssh
+[2018-08-24 18:58:38] Fetching org.eclipse.linuxtools.rpmstubby_1.2.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (66.77kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.debug.ui.memory.memorybrowser_1.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (28.5kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.rse.dstore.security_3.0.400.201403100950.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (66.39kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.linuxtools.cdt.libhover_1.2.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (61.62kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.tracecompass.segmentstore.core
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.debug.ui.memory.traditional
+[2018-08-24 18:58:38] Downloading org.eclipse.linuxtools.rpm.ui
+[2018-08-24 18:58:38] Fetching org.eclipse.rse.services.ssh_3.2.100.201403281521.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (61.57kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.rse.services.local
+[2018-08-24 18:58:38] Fetching org.eclipse.tracecompass.tmf.ctf.core_3.0.1.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (26.67kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.remote.console
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.debug.ui.memory.traditional_1.5.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (61.42kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.linuxtools.rpm.rpmlint
+[2018-08-24 18:58:38] Fetching org.eclipse.linuxtools.rpm.ui_1.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (61.36kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.rse.services.local_2.2.1.201507180454.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (61.29kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.tracecompass.segmentstore.core_2.0.1.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (23.47kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.tracecompass.analysis.graph.core
+[2018-08-24 18:58:38] Fetching org.eclipse.remote.console_1.2.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (26.32kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.linuxtools.rpm.rpmlint_1.1.0.201803061555.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (59.4kB)
+[2018-08-24 18:58:38] Downloading org.json
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.autotools.core
+[2018-08-24 18:58:38] Downloading org.eclipse.remote.serial.ui
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.autotools.core_2.0.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (54.96kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.tracecompass.ctf.parser
+[2018-08-24 18:58:38] Downloading org.eclipse.tm.terminal.connector.ssh
+[2018-08-24 18:58:38] Downloading org.eclipse.linuxtools.cdt.libhover.devhelp
+[2018-08-24 18:58:38] Fetching org.eclipse.tracecompass.analysis.graph.core_1.2.0.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (22.56kB)
+[2018-08-24 18:58:38] Fetching org.json_1.0.0.v201011060100.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (29.69kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.remote.serial.ui_1.0.0.201803060126.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (54.67kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.codan.core
+[2018-08-24 18:58:38] Fetching org.eclipse.linuxtools.cdt.libhover.devhelp_1.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (53.33kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.tracecompass.ctf.parser_1.0.2.201803071910.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (54.06kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.tm.terminal.connector.ssh_4.2.0.201609191434.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (53.64kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.tm.terminal.connector.telnet
+[2018-08-24 18:58:38] Fetching org.eclipse.tm.terminal.connector.ssh_4.2.0.201609191434.jar from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (53.64kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.codan.ui
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.codan.checkers.ui
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.codan.core_4.0.0.201802261533.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (53.17kB)
+[2018-08-24 18:58:38] Downloading org.eclipse.remote.serial.core
+[2018-08-24 18:58:38] Downloading org.eclipse.cdt.debug.ui.memory.floatingpoint
+[2018-08-24 18:58:38] Downloading org.eclipse.tracecompass.gdbtrace.core
+[2018-08-24 18:58:38] Fetching org.eclipse.tm.terminal.connector.telnet_4.2.0.201609191434.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (52.31kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.debug.ui.memory.floatingpoint_1.0.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (50.19kB)
+[2018-08-24 18:58:38] Fetching org.eclipse.cdt.codan.checkers.ui_3.2.1.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (20.41kB)
+[2018-08-24 18:58:39] Fetching org.eclipse.cdt.codan.ui_3.3.0.201802261533.jar.pack.gz from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (51.34kB)
+[2018-08-24 18:58:39] Downloading org.eclipse.linuxtools.rpm.core
+[2018-08-24 18:58:39] Fetching org.eclipse.remote.serial.core_1.0.0.201803060126.jar.pack.gz from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/plugins/ (50.3kB)
+[2018-08-24 18:58:39] Fetching org.eclipse.tracecompass.gdbtrace.core_1.0.0.201803071910.jar.pack.gz from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/plugins/ (21.47kB)
+[2018-08-24 18:58:39] Downloading org.eclipse.linuxtools.valgrind.cachegrind
+[2018-08-24 18:58:39] Downloading org.eclipse.linuxtools.binutils
+[2018-08-24 18:58:39] Fetching org.eclipse.linuxtools.rpm.core_3.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (48.96kB)
+[2018-08-24 18:58:39] Downloading org.eclipse.linuxtools.valgrind.ui.editor
+[2018-08-24 18:58:39] Fetching org.eclipse.linuxtools.valgrind.cachegrind_1.1.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (47.78kB)
+[2018-08-24 18:58:39] Fetching org.eclipse.linuxtools.binutils_6.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (47.36kB)
+[2018-08-24 18:58:39] Fetching org.eclipse.linuxtools.valgrind.ui.editor_1.0.0.201803061555.jar from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/plugins/ (46.24kB)
+[2018-08-24 18:58:40] Mirrored 129 artifacts from http://downloads.yoctoproject.org/eclipse-full/releases/oxygen/201804111000/ at 726kb/s
+[2018-08-24 18:58:40] Mirrored 72 artifacts from http://ftp.osuosl.org/pub/eclipse/releases/oxygen/201804111000/ at 451kb/s
+[2018-08-24 18:58:40] Mirrored 9 artifacts from http://mirror.cc.columbia.edu/pub/software/eclipse/releases/oxygen/201804111000/ at 186kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirrors.xmission.com/eclipse/releases/oxygen/201804111000/ at 34kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirrors.syringanetworks.net/eclipse/releases/oxygen/201804111000/ at 31kb/s
+[2018-08-24 18:58:40] Mirrored 3 artifacts from http://mirror.math.princeton.edu/pub/eclipse//releases/oxygen/201804111000/ at 31kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/releases/oxygen/201804111000/ at 30kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirrors.ibiblio.org/eclipse/releases/oxygen/201804111000/ at 29kb/s
+[2018-08-24 18:58:40] Mirrored 5 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/oxygen/201804111000/ at 28kb/s with 1 failures
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://www.gtlib.gatech.edu/pub/eclipse/releases/oxygen/201804111000/ at 26kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://ftp.ussg.iu.edu/eclipse/releases/oxygen/201804111000/ at 24kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/oxygen/201804111000/ at 21kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/oxygen/201804111000/ at 21kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirrors.nic.cz/eclipse/releases/oxygen/201804111000/ at 15kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirror.switch.ch/eclipse/releases/oxygen/201804111000/ at 13kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/releases/oxygen/201804111000/ at 9kb/s
+[2018-08-24 18:58:40] Mirrored 1 artifacts from http://mirror.csclub.uwaterloo.ca/eclipse/releases/oxygen/201804111000/ at 6kb/s
+[2018-08-24 18:58:40] Collected 232 artifacts for http://download.eclipse.org/releases/oxygen/201804111000 in 22.11s
+[2018-08-24 18:58:45] Installing a.jre.javase [1.6.0]
+[2018-08-24 18:58:45] Installing com.google.gson [2.7.0.v20170129-0911]
+[2018-08-24 18:58:45] Installing com.google.guava [21.0.0.v20170206-1425]
+[2018-08-24 18:58:45] Installing com.ibm.icu [58.2.0.v20170418-1837]
+[2018-08-24 18:58:45] Installing com.jcraft.jsch [0.1.54.v20170116-1932]
+[2018-08-24 18:58:45] Installing com.sun.el [2.2.0.v201303151357]
+[2018-08-24 18:58:45] Installing config.a.jre.javase [1.6.0]
+[2018-08-24 18:58:45] Installing epp.package.cpp [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing epp.package.cpp.executable.cocoa.macosx.x86_64 [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing epp.package.cpp.executable.cocoa.macosx.x86_64.eclipse [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing javaewah [1.1.6.v20160919-1400]
+[2018-08-24 18:58:45] Installing javax.annotation [1.2.0.v201602091430]
+[2018-08-24 18:58:45] Installing javax.el [2.2.0.v201303151357]
+[2018-08-24 18:58:45] Installing javax.inject [1.0.0.v20091030]
+[2018-08-24 18:58:45] Installing javax.servlet [3.1.0.v201410161800]
+[2018-08-24 18:58:45] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2018-08-24 18:58:45] Installing javax.xml [1.3.4.v201005080400]
+[2018-08-24 18:58:45] Installing org.antlr.runtime [3.2.0.v201101311130]
+[2018-08-24 18:58:45] Installing org.apache.ant [1.10.1.v20170504-0840]
+[2018-08-24 18:58:45] Installing org.apache.batik.css [1.8.0.v20170214-1941]
+[2018-08-24 18:58:45] Installing org.apache.batik.util [1.8.0.v20170214-1941]
+[2018-08-24 18:58:45] Installing org.apache.batik.util.gui [1.8.0.v20170214-1941]
+[2018-08-24 18:58:45] Installing org.apache.commons.codec [1.9.0.v20170208-1614]
+[2018-08-24 18:58:45] Installing org.apache.commons.compress [1.6.0.v201310281400]
+[2018-08-24 18:58:45] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2018-08-24 18:58:45] Installing org.apache.commons.io [2.2.0.v201405211200]
+[2018-08-24 18:58:45] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2018-08-24 18:58:45] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2018-08-24 18:58:45] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2018-08-24 18:58:45] Installing org.apache.commons.logging [1.1.1.v201101211721]
+[2018-08-24 18:58:45] Installing org.apache.commons.net [3.2.0.v201305141515]
+[2018-08-24 18:58:45] Installing org.apache.felix.gogo.command [0.10.0.v201209301215]
+[2018-08-24 18:58:45] Installing org.apache.felix.gogo.runtime [0.10.0.v201209301036]
+[2018-08-24 18:58:45] Installing org.apache.felix.gogo.shell [0.10.0.v201212101605]
+[2018-08-24 18:58:45] Installing org.apache.felix.scr [2.0.10.v20170501-2007]
+[2018-08-24 18:58:45] Installing org.apache.httpcomponents.httpclient [4.5.2.v20170210-0925]
+[2018-08-24 18:58:45] Installing org.apache.httpcomponents.httpcore [4.4.6.v20170210-0925]
+[2018-08-24 18:58:45] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2018-08-24 18:58:45] Installing org.apache.log4j [1.2.15.v201012070815]
+[2018-08-24 18:58:45] Installing org.apache.lucene.analyzers-common [6.1.0.v20161115-1612]
+[2018-08-24 18:58:45] Installing org.apache.lucene.analyzers-smartcn [6.1.0.v20161115-1612]
+[2018-08-24 18:58:45] Installing org.apache.lucene.core [6.1.0.v20170814-1820]
+[2018-08-24 18:58:45] Installing org.apache.lucene.misc [6.1.0.v20161115-1612]
+[2018-08-24 18:58:45] Installing org.apache.lucene.queryparser [6.1.0.v20161115-1612]
+[2018-08-24 18:58:45] Installing org.apache.ws.commons.util [1.0.1.v20100518-1140]
+[2018-08-24 18:58:45] Installing org.apache.xerces [2.9.0.v201101211617]
+[2018-08-24 18:58:45] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2018-08-24 18:58:45] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2018-08-24 18:58:45] Installing org.apache.xmlrpc [3.0.0.v20100427-1100]
+[2018-08-24 18:58:45] Installing org.cyberneko.html [1.9.14.v201105210654]
+[2018-08-24 18:58:45] Installing org.eclipse.ant.core [3.5.0.v20170509-2149]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.autotools.core [2.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.autotools.docs [2.0.2.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.autotools.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.autotools.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.autotools.ui [2.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.build.crossgcc [1.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.build.crossgcc.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.build.crossgcc.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.build.gcc.core [1.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.build.gcc.ui [1.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.checkers [3.2.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.checkers.ui [3.2.1.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.core [4.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.core.cxx [3.4.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.ui [3.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.codan.ui.cxx [3.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.core [6.4.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.core.macosx [5.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.core.native [5.10.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.application [1.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.application.doc [1.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.core [8.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.standalone.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.standalone.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui [8.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.floatingpoint [1.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.memorybrowser [1.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.search [1.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.traditional [1.5.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.debug.ui.memory.transport [2.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.doc.user [5.4.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.dsf [2.8.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.dsf.gdb [5.4.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.dsf.gdb.ui [2.6.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.dsf.ui [2.5.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gdb [7.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gdb.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gdb.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gdb.ui [7.0.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.build.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.build.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.debug.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.debug.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.dsf.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.gnu.dsf.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.launch [9.2.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.launch.remote [2.5.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.launch.remote.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.launch.remote.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.make.core [7.4.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.make.ui [7.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.managedbuilder.core [8.6.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.managedbuilder.gnu.ui [8.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.managedbuilder.ui [9.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.mylyn.feature.group [5.19.0.v20170411-2108]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.mylyn.feature.jar [5.19.0.v20170411-2108]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.mylyn.ui [3.23.0.v20170411-2108]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.native.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.native.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.native.serial [1.1.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.platform.feature.group [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.platform.feature.jar [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.remote.core [1.0.1.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt.ui [6.3.0.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.cdt_root [9.4.3.201802261533]
+[2018-08-24 18:58:45] Installing org.eclipse.compare [3.7.101.v20170724-1603]
+[2018-08-24 18:58:45] Installing org.eclipse.compare.core [3.6.100.v20170516-0820]
+[2018-08-24 18:58:45] Installing org.eclipse.core.commands [3.9.0.v20170530-1048]
+[2018-08-24 18:58:45] Installing org.eclipse.core.contenttype [3.6.0.v20170207-1037]
+[2018-08-24 18:58:45] Installing org.eclipse.core.databinding [1.6.100.v20170515-1119]
+[2018-08-24 18:58:45] Installing org.eclipse.core.databinding.beans [1.4.0.v20170210-0856]
+[2018-08-24 18:58:45] Installing org.eclipse.core.databinding.observable [1.6.100.v20170515-1119]
+[2018-08-24 18:58:45] Installing org.eclipse.core.databinding.property [1.6.100.v20170515-1119]
+[2018-08-24 18:58:45] Installing org.eclipse.core.expressions [3.6.0.v20170207-1037]
+[2018-08-24 18:58:45] Installing org.eclipse.core.externaltools [1.1.0.v20170113-2056]
+[2018-08-24 18:58:45] Installing org.eclipse.core.filebuffers [3.6.100.v20170203-1130]
+[2018-08-24 18:58:45] Installing org.eclipse.core.filesystem [1.7.0.v20170406-1337]
+[2018-08-24 18:58:45] Installing org.eclipse.core.filesystem.macosx [1.3.0.v20140124-1940]
+[2018-08-24 18:58:45] Installing org.eclipse.core.jobs [3.9.3.v20180115-1757]
+[2018-08-24 18:58:45] Installing org.eclipse.core.net [1.3.100.v20170516-0820]
+[2018-08-24 18:58:45] Installing org.eclipse.core.resources [3.12.0.v20170417-1558]
+[2018-08-24 18:58:45] Installing org.eclipse.core.runtime [3.13.0.v20170207-1030]
+[2018-08-24 18:58:45] Installing org.eclipse.core.variables [3.4.0.v20170113-2056]
+[2018-08-24 18:58:45] Installing org.eclipse.debug.core [3.11.0.v20170605-1534]
+[2018-08-24 18:58:45] Installing org.eclipse.debug.ui [3.12.50.v20170920-1329]
+[2018-08-24 18:58:45] Installing org.eclipse.dstore.core [3.4.0.201501311530]
+[2018-08-24 18:58:45] Installing org.eclipse.dstore.extra [2.1.400.201403100950]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.commands [0.12.100.v20170513-0428]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.contexts [1.6.0.v20170322-1144]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.di [1.6.100.v20170421-1418]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.di.annotations [1.6.0.v20170119-2002]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.di.extensions [0.15.0.v20170228-1728]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.di.extensions.supplier [0.15.0.v20170407-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.core.services [2.1.0.v20170407-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.emf.xpath [0.2.0.v20160630-0728]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.rcp.feature.group [1.6.3.v20180329-0507]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.rcp.feature.jar [1.6.3.v20180329-0507]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.bindings [0.12.1.v20170823-1632]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.css.core [0.12.101.v20170712-1547]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.css.swt [0.13.1.v20170808-1940]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.css.swt.theme [0.11.0.v20170312-2302]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.di [1.2.100.v20170414-1137]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.dialogs [1.1.100.v20170104-1425]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.model.workbench [2.0.1.v20170713-1800]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.services [1.3.0.v20170307-2032]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.widgets [1.2.0.v20160630-0736]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench [1.5.1.v20170815-1446]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench.addons.swt [1.3.1.v20170319-1442]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.14.102.v20180117-1153]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench.renderers.swt.cocoa [0.11.300.v20160330-1418]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench.swt [0.14.101.v20170710-1119]
+[2018-08-24 18:58:45] Installing org.eclipse.e4.ui.workbench3 [0.14.0.v20160630-0740]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf [3.8.0.v20170104-0657]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.core.feature.feature.group [1.4.0.v20170516-2248]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.core.feature.feature.jar [1.4.0.v20170516-2248]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer [5.0.0.v20160817-1024]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.13.8.v20170715-2257]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.13.8.v20170715-2257]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.group [3.13.8.v20170715-2257]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.httpclient4.feature.feature.jar [3.13.8.v20170715-2257]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.group [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.httpclient4.ssl.feature.feature.jar [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.0.v20170110-1317]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.identity [3.8.0.v20161203-2153]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.provider.filetransfer [3.2.300.v20161203-1840]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.provider.filetransfer.httpclient4 [1.1.200.v20170314-0133]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.provider.filetransfer.httpclient4.ssl [1.1.0.v20160817-1024]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.0.v20160817-1024]
+[2018-08-24 18:58:45] Installing org.eclipse.ecf.ssl [1.2.0.v20160817-1024]
+[2018-08-24 18:58:45] Installing org.eclipse.egit [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.egit.core [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.egit.doc [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.egit.feature.group [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.egit.feature.jar [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.egit.ui [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.common [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.common.feature.group [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.common.feature.jar [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.common.ui [2.12.0.v20170609-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.databinding [1.3.0.v20170609-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.ecore [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.ecore.change [2.11.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.ecore.feature.group [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.ecore.feature.jar [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.ecore.xmi [2.13.0.v20170609-0707]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.edit [2.12.0.v20170609-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.emf.edit.ui [2.13.0.v20170609-0928]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.logging.aeri.core [2.0.7.v20170906-1327]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.logging.aeri.feature.feature.group [2.0.7.v20170906-1327]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.logging.aeri.feature.feature.jar [2.0.7.v20170906-1327]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.logging.aeri.ide [2.0.7.v20170906-1327]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.mpc.core [1.6.4.v20180214-1810]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.mpc.feature.group [1.6.4.v20180214-1810]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.mpc.feature.jar [1.6.4.v20180214-1810]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.mpc.help.ui [1.6.4.v20180214-1800]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.mpc.ui [1.6.4.v20180214-1800]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.common [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.common.feature.feature.group [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.common.feature.feature.jar [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.cpp [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.cpp.feature.feature.group [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.epp.package.cpp.feature.feature.jar [4.7.3.20180405-1200]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.app [1.3.400.v20150715-1528]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.bidi [1.1.0.v20160728-1031]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.common [3.9.0.v20170207-1454]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.concurrent [1.1.0.v20130327-1442]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.console [1.1.300.v20170512-2111]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.ds [1.5.0.v20170307-1429]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.event [1.4.0.v20170105-1446]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.frameworkadmin [2.0.300.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.frameworkadmin.equinox [1.0.800.v20170524-1345]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.http.jetty [3.4.0.v20170503-2025]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.http.registry [1.1.400.v20150715-1528]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.http.servlet [1.4.0.v20170524-1452]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.jsp.jasper [1.0.500.v20150119-1358]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.jsp.jasper.registry [1.0.300.v20130327-1442]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.launcher [1.4.0.v20161219-1356]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.551.v20171108-1834]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.artifact.repository [1.1.650.v20170928-1405]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.console [1.0.600.v20170511-1106]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.core [2.4.101.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.4.1.v20170928-1405]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.4.1.v20170928-1405]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.director [2.3.300.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.director.app [1.0.500.v20160419-0834]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.directorywatcher [1.1.100.v20150423-1455]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.discovery [1.0.400.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.discovery.compatibility [1.0.201.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.discovery.feature.feature.group [1.1.1.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.discovery.feature.feature.jar [1.1.1.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.engine [2.5.0.v20170319-2002]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.extensionlocation [1.2.300.v20160419-0834]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.3.1.v20170928-1405]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.3.1.v20170928-1405]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.garbagecollector [1.0.300.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.jarprocessor [1.0.500.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.metadata [2.3.200.v20170511-1106]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.metadata.repository [1.2.401.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.operations [2.4.300.v20170511-1106]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.publisher [1.4.200.v20170511-1216]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.publisher.eclipse [1.2.201.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.3.2.v20171108-1343]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.3.2.v20171108-1343]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.reconciler.dropins [1.1.400.v20160504-1450]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.repository [2.3.301.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.repository.tools [2.1.400.v20170511-1216]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.1.501.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.touchpoint.natives [1.2.200.v20170511-1216]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.transport.ecf [1.1.300.v20161004-0244]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.ui [2.5.2.v20171013-1525]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.ui.discovery [1.0.300.v20170418-0708]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.ui.importexport [1.1.301.v20170816-1007]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.ui.sdk [1.0.500.v20170511-1216]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.3.100.v20170418-0708]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.updatechecker [1.1.400.v20170106-2125]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.updatesite [1.0.601.v20170906-1259]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.3.2.v20171108-1343]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.3.2.v20171108-1343]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.preferences [3.7.0.v20170126-2132]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.registry [3.7.0.v20170222-1344]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.security [1.2.300.v20170505-1235]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.security.macosx [1.100.200.v20130327-1442]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.security.ui [1.1.400.v20170505-1235]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.simpleconfigurator [1.2.1.v20180131-1435]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.0.300.v20170515-0721]
+[2018-08-24 18:58:45] Installing org.eclipse.equinox.util [1.0.500.v20130404-1337]
+[2018-08-24 18:58:45] Installing org.eclipse.help [3.8.1.v20170815-1448]
+[2018-08-24 18:58:45] Installing org.eclipse.help.base [4.2.153.v20180330-0640]
+[2018-08-24 18:58:45] Installing org.eclipse.help.feature.group [2.2.104.v20180330-0640]
+[2018-08-24 18:58:45] Installing org.eclipse.help.feature.jar [2.2.104.v20180330-0640]
+[2018-08-24 18:58:45] Installing org.eclipse.help.ui [4.1.0.v20170311-0931]
+[2018-08-24 18:58:45] Installing org.eclipse.help.webapp [3.9.1.v20170816-0843]
+[2018-08-24 18:58:45] Installing org.eclipse.jdt.core [3.13.102.v20180330-0919]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.continuation [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.http [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.io [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.security [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.server [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.servlet [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jetty.util [9.4.8.v20171121]
+[2018-08-24 18:58:45] Installing org.eclipse.jface [3.13.2.v20171022-1656]
+[2018-08-24 18:58:45] Installing org.eclipse.jface.databinding [1.8.100.v20170503-1507]
+[2018-08-24 18:58:45] Installing org.eclipse.jface.text [3.12.2.v20180112-1341]
+[2018-08-24 18:58:45] Installing org.eclipse.jgit [4.9.2.201712150930-r]
+[2018-08-24 18:58:45] Installing org.eclipse.jgit.archive [4.9.2.201712150930-r]
+[2018-08-24 18:58:46] Installing org.eclipse.jgit.feature.group [4.9.2.201712150930-r]
+[2018-08-24 18:58:46] Installing org.eclipse.jgit.feature.jar [4.9.2.201712150930-r]
+[2018-08-24 18:58:46] Installing org.eclipse.jsch.core [1.3.0.v20160422-1917]
+[2018-08-24 18:58:46] Installing org.eclipse.jsch.ui [1.3.0.v20160323-1650]
+[2018-08-24 18:58:46] Installing org.eclipse.launchbar.core [2.2.0.201711162100]
+[2018-08-24 18:58:46] Installing org.eclipse.launchbar.ui [2.2.0.201711162100]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.binutils [6.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover [1.2.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.devhelp [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.devhelp.feature.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.feature.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.feature.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.glibc [1.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.changelog.c.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.changelog.c.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.changelog.core [3.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.changelog.cparser [2.7.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.changelog.doc [2.7.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.dataviewers [6.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.dataviewers.charts [6.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.dataviewers.piechart [2.0.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gcov.core [6.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gcov.docs [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gcov.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gcov.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gcov.launch [1.2.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gprof [5.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gprof.docs [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gprof.feature.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gprof.feature.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.gprof.launch [1.2.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.docs [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.launch [3.3.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.ui [3.2.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.profiling.ui.capability [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.core [3.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.createrepo [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.rpmlint [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.ui [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.ui.editor [4.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpm.ui.editor.doc [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.rpmstubby [1.2.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.tools.launch.core [3.3.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.tools.launch.ui [2.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.cachegrind [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.core [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.doc [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.feature.group [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.feature.jar [6.2.1.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.helgrind [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.launch [3.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.massif [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.memcheck [1.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.ui [2.1.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.linuxtools.valgrind.ui.editor [1.0.0.201803061555]
+[2018-08-24 18:58:46] Installing org.eclipse.ltk.core.refactoring [3.8.0.v20170105-1156]
+[2018-08-24 18:58:46] Installing org.eclipse.ltk.ui.refactoring [3.9.0.v20170412-0825]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.bugzilla.core [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.bugzilla.ide [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.bugzilla.ui [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.bugzilla_feature.feature.group [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.bugzilla_feature.feature.jar [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.core [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.feature.group [3.23.0.v20170503-0014]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.feature.jar [3.23.0.v20170503-0014]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.identity.core [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.identity.feature.group [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.net [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.notifications.core [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.notifications.feed [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.notifications.ui [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.repositories.core [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.repositories.ui [1.15.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.screenshots [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.ui [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.workbench [3.23.0.v20170503-0014]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.commons.xmlrpc [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.context.core [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.context.tasks.ui [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.context.ui [3.23.0.v20170414-0629]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.context_feature.feature.group [3.23.0.v20170414-0629]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.context_feature.feature.jar [3.23.0.v20170414-0629]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.discovery.core [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.discovery.feature.group [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.discovery.feature.jar [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.discovery.ui [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.help.ui [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.ide.ui [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.ide_feature.feature.group [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.ide_feature.feature.jar [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.monitor.core [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.monitor.feature.group [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.monitor.feature.jar [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.monitor.ui [3.23.0.v20170411-1844]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.resources.ui [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.bugs [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.core [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.ide.feature.group [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.ide.feature.jar [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.index.core [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.index.ui [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.search [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.tasks.ui [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.team.ui [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.team_feature.feature.group [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.team_feature.feature.jar [3.23.0.v20170411-2108]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.ant [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.asciidoc [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.confluence [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.confluence.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.context.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.jar [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.help.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.html [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.markdown [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.markdown.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.mediawiki [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.osgi [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.tasks.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.textile [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.textile.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.tracwiki [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.twiki [3.0.19.20171117145831]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.twiki.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext.ui [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext_feature.feature.group [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [3.0.19.201711172000]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn_feature.feature.group [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.mylyn_feature.feature.jar [3.23.1.v20170623-0008]
+[2018-08-24 18:58:46] Installing org.eclipse.nebula.widgets.tablecombo [1.2.0.201803121317]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.base [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.base.edit [1.9.0.v20180308-1210]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.extractor.lib [1.4.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.jreinfo [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.jreinfo.ui [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2 [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.core [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.doc [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.edit [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.feature.group [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.feature.jar [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.p2.ui [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.predicates [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.predicates.edit [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.preferences [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.resources [1.9.0.v20180307-0733]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.resources.edit [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup [1.9.0.v20180203-0645]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.core [1.9.0.v20180310-0545]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.core.feature.group [1.9.0.v20180310-0545]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.core.feature.jar [1.9.0.v20180310-0545]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.doc [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.edit [1.9.0.v20180308-1210]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.editor [1.9.0.v20180203-0645]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.feature.group [1.9.0.v20180310-0545]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.feature.jar [1.9.0.v20180310-0545]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.p2 [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.p2.edit [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.sync [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.ui [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.setup.ui.questionnaire [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.ui [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.util [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.workingsets [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.workingsets.edit [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.oomph.workingsets.editor [1.9.0.v20171221-1140]
+[2018-08-24 18:58:46] Installing org.eclipse.osgi [3.12.100.v20180210-1608]
+[2018-08-24 18:58:46] Installing org.eclipse.osgi.compatibility.state [1.1.0.v20170516-1513]
+[2018-08-24 18:58:46] Installing org.eclipse.osgi.services [3.6.0.v20170228-1906]
+[2018-08-24 18:58:46] Installing org.eclipse.osgi.util [3.4.0.v20170111-1608]
+[2018-08-24 18:58:46] Installing org.eclipse.platform [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.doc.user [4.7.3.v20180328-1557]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.feature.group [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.feature.jar [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.ide [4.7.3.M20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.7.3.M20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64.eclipse [4.7.3.M20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.platform_root [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.rcp [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.rcp.feature.group [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.rcp.feature.jar [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.rcp_root [4.7.3.v20180330-0640]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.console [1.2.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.core [4.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.doc.isv [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.feature.group [3.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.feature.jar [3.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.jsch.core [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.jsch.ui [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.serial.core [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.serial.ui [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.telnet.core [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.telnet.ui [1.0.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.remote.ui [2.1.0.201803060126]
+[2018-08-24 18:58:46] Installing org.eclipse.rse [3.5.0.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.connectorservice.dstore [3.1.301.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.connectorservice.local [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.connectorservice.ssh [2.1.300.201505220524]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.connectorservice.telnet [1.2.300.201505220524]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.core [3.3.100.201603151753]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.core.feature.group [3.7.3.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.core.feature.jar [3.7.3.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.doc.user [3.4.100.201403101646]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.dstore.feature.group [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.dstore.feature.jar [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.dstore.security [3.0.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.efs [2.1.401.201507172212]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.efs.ui [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.feature.group [3.7.3.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.feature.jar [3.7.3.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.files.ui [3.2.200.201507172213]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.ftp.feature.group [3.7.1.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.ftp.feature.jar [3.7.1.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.importexport [1.2.300.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.local.feature.group [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.local.feature.jar [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.processes.ui [3.0.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services [3.3.0.201506120731]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services.dstore [3.3.0.201406041609]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services.files.ftp [3.0.500.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services.local [2.2.1.201507180454]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services.ssh [3.2.100.201403281521]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.services.telnet [2.0.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.shells.ui [3.0.500.201403271554]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.ssh.feature.group [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.ssh.feature.jar [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.files.core [3.3.1.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.files.dstore [2.1.300.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.files.ftp [2.2.100.201601281414]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.files.local [2.1.300.201403251512]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.files.ssh [2.1.300.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.processes.core [3.1.300.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.processes.dstore [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.processes.local [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.processes.shell.linux [1.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.shells.core [3.1.300.201403271554]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.shells.dstore [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.shells.local [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.shells.ssh [2.1.400.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.subsystems.shells.telnet [1.2.300.201403100950]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.telnet.feature.group [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.telnet.feature.jar [3.7.0.201704251225]
+[2018-08-24 18:58:46] Installing org.eclipse.rse.ui [3.3.400.201704241037]
+[2018-08-24 18:58:46] Installing org.eclipse.search [3.11.100.v20170515-1603]
+[2018-08-24 18:58:46] Installing org.eclipse.swt [3.106.3.v20180329-0507]
+[2018-08-24 18:58:46] Installing org.eclipse.swt.cocoa.macosx.x86_64 [3.106.3.v20180329-0507]
+[2018-08-24 18:58:46] Installing org.eclipse.team.core [3.8.100.v20170516-0820]
+[2018-08-24 18:58:46] Installing org.eclipse.team.genericeditor.diff.extension [1.0.1.v20170809-1356]
+[2018-08-24 18:58:46] Installing org.eclipse.team.ui [3.8.1.v20170515-1133]
+[2018-08-24 18:58:46] Installing org.eclipse.text [3.6.100.v20170203-0814]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.cdtserial [4.3.0.201706121839]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.cdtserial.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.cdtserial.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.local [4.2.0.201609191434]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.local.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.local.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.process [4.2.0.201609191434]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.ssh [4.2.0.201609191434]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.telnet [4.2.0.201609191434]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.control [4.3.0.201706130821]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.control.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.control.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.view.core [4.2.0.201609191434]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.view.feature.feature.group [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.view.feature.feature.jar [4.3.0.201706140544]
+[2018-08-24 18:58:46] Installing org.eclipse.tm.terminal.view.ui [4.3.0.201706130844]
+[2018-08-24 18:58:46] Installing org.eclipse.tools.templates.core [1.1.0.201802082100]
+[2018-08-24 18:58:46] Installing org.eclipse.tools.templates.freemarker [1.0.0.201802082100]
+[2018-08-24 18:58:46] Installing org.eclipse.tools.templates.ui [1.1.1.201802082100]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.counters.core [1.2.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.counters.ui [0.0.3.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.graph.core [1.2.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.graph.ui [1.0.5.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.lami.core [1.0.3.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.lami.ui [1.0.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.os.linux.core [2.5.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.os.linux.ui [2.2.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.timing.core [3.1.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.analysis.timing.ui [2.2.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.common.core [3.0.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.ctf.core [2.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.ctf.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.ctf.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.ctf.parser [1.0.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.datastore.core [1.1.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.doc.dev [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.doc.user [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.gdbtrace.core [1.0.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.gdbtrace.doc.user [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.gdbtrace.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.gdbtrace.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.gdbtrace.ui [1.1.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.common.core [1.1.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.control.core [1.2.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.control.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.control.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.control.ui [1.2.3.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.kernel.core [2.2.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.kernel.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.kernel.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.kernel.ui [1.1.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.ust.core [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.ust.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.ust.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.lttng2.ust.ui [3.0.3.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.segmentstore.core [2.0.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.statesystem.core [3.2.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.analysis.xml.core [2.5.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.analysis.xml.ui [2.1.4.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.chart.core [1.0.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.chart.ui [1.0.3.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.core [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.ctf.core [3.0.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.ctf.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.ctf.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.feature.group [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.feature.jar [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.remote.core [2.0.1.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.remote.ui [1.0.2.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.tracecompass.tmf.ui [3.3.0.201803071910]
+[2018-08-24 18:58:46] Installing org.eclipse.ui [3.109.0.v20170411-1742]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.browser [3.6.100.v20170418-1342]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.cheatsheets [3.5.100.v20170515-0748]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.cocoa [1.1.100.v20151202-1450]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.console [3.7.1.v20170728-0806]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.editors [3.11.0.v20170202-1823]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.externaltools [3.4.0.v20161212-0515]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.forms [3.7.101.v20170815-1446]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.genericeditor [1.0.2.v20180126-0718]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.ide [3.13.1.v20170822-1526]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.ide.application [1.2.0.v20170512-1452]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.intro [3.5.100.v20170418-0710]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.intro.quicklinks [1.0.100.v20170515-0756]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.intro.universal [3.3.100.v20170515-1335]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.monitoring [1.1.100.v20170131-1736]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.navigator [3.7.0.v20170418-1342]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.navigator.resources [3.6.1.v20170823-1443]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.net [1.3.100.v20170516-0820]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.themes [1.2.1.v20170809-1435]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.views [3.9.0.v20170226-1833]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.views.log [1.2.100.v20170515-1458]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.views.properties.tabbed [3.8.1.v20170713-0803]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.workbench [3.110.1.v20170704-1208]
+[2018-08-24 18:58:46] Installing org.eclipse.ui.workbench.texteditor [3.10.100.v20170426-2021]
+[2018-08-24 18:58:46] Installing org.eclipse.update.configurator [3.3.400.v20160506-0750]
+[2018-08-24 18:58:46] Installing org.eclipse.userstorage [1.1.0.v20170328-0205]
+[2018-08-24 18:58:46] Installing org.eclipse.userstorage.feature.group [1.1.0.v20170526-1605]
+[2018-08-24 18:58:46] Installing org.eclipse.userstorage.feature.jar [1.1.0.v20170526-1605]
+[2018-08-24 18:58:46] Installing org.eclipse.userstorage.oauth [1.0.0.v20170526-1605]
+[2018-08-24 18:58:46] Installing org.eclipse.userstorage.ui [1.0.2.v20170526-1605]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.core [1.2.0.v200908251833]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.environment [1.0.400.v200912181831]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.frameworks [1.2.201.v201707201954]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.frameworks.ui [1.2.400.v201504292002]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.project.facet.core [1.4.300.v201111030423]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.ui [1.1.500.v200911182011]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.common.uriresolver [1.2.300.v201702270556]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.sse.core [1.1.1002.v201711071507]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.sse.ui [1.3.600.v201707042340]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.validation [1.2.701.v201707142105]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.validation.ui [1.2.501.v201707142105]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.xml.core [1.1.1101.v201711080222]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.xml.ui [1.1.800.v201704102213]
+[2018-08-24 18:58:46] Installing org.eclipse.wst.xsd.core [1.1.900.v201401141857]
+[2018-08-24 18:58:46] Installing org.eclipse.xsd [2.13.0.v20170609-0928]
+[2018-08-24 18:58:46] Installing org.freemarker [2.3.22.v20160210-1233]
+[2018-08-24 18:58:46] Installing org.json [1.0.0.v201011060100]
+[2018-08-24 18:58:46] Installing org.jsoup [1.7.2.v201411291515]
+[2018-08-24 18:58:47] Installing org.sat4j.core [2.3.5.v201308161310]
+[2018-08-24 18:58:47] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2018-08-24 18:58:47] Installing org.slf4j.api [1.7.2.v20121108-1250]
+[2018-08-24 18:58:47] Installing org.slf4j.impl.log4j12 [1.7.2.v20131105-2200]
+[2018-08-24 18:58:47] Installing org.swtchart [0.10.0.v201605200358]
+[2018-08-24 18:58:47] Installing org.tukaani.xz [1.5.0.v20170111-1717]
+[2018-08-24 18:58:47] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2018-08-24 18:58:47] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2018-08-24 18:58:47] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2018-08-24 18:58:47] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2018-08-24 18:58:47] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2018-08-24 18:58:47] Installing tooling.osgi.bundle.default [1.0.0]
+[2018-08-24 18:58:47] Installing tooling.source.default [1.0.0]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.core.runtime [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.common [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.ds [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.event [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.simpleconfigurator [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingcocoa.macosx.x86_64org.eclipse.update.configurator [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingepp.package.cpp.application [4.7.3.20180405-1200]
+[2018-08-24 18:58:47] Installing toolingepp.package.cpp.config.cocoa.macosx.x86_64 [4.7.3.20180405-1200]
+[2018-08-24 18:58:47] Installing toolingepp.package.cpp.configuration [4.7.3.20180405-1200]
+[2018-08-24 18:58:47] Installing toolingepp.package.cpp.executable.cocoa.macosx.x86_64 [4.7.3.20180405-1200]
+[2018-08-24 18:58:47] Installing toolingepp.package.cpp.ini.cocoa.macosx.x86_64 [4.7.3.20180405-1200]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.equinox.launcher [1.4.0.v20161219-1356]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.551.v20171108-1834]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.configuration.macosx [1.0.0]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.ide.application [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.ide.config.cocoa.macosx.x86_64 [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.ide.configuration [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Installing toolingorg.eclipse.platform.ide.ini.cocoa.macosx.x86_64 [4.7.3.M20180330-0640]
+[2018-08-24 18:58:47] Preparing to commit the provisioning operation.
+[2018-08-24 18:58:48] Committing the provisioning operation.
+[2018-08-24 18:58:50] Performing Eclipse Ini --launcher.appendVmargs
+[2018-08-24 18:58:50] Performing Eclipse Ini -vm /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/bin
+[2018-08-24 18:58:50] Changing /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse/eclipse.ini (-vm /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/bin)
+[2018-08-24 18:58:50] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2018-08-24 18:58:50] Changing /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse/eclipse.ini (-Declipse.p2.max.threads=10)
+[2018-08-24 18:58:50] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest
+[2018-08-24 18:58:50] Changing /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest)
+[2018-08-24 18:58:50] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2018-08-24 18:58:50] Changing /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2018-08-24 18:58:50] Performing post bootstrap tasks
+[2018-08-24 18:58:50] Changing /Users/zackmcnulty/Desktop/CSE/C++/Eclipse.app/Contents/Eclipse/configuration/config.ini (osgi.configuration.cascaded=false)
+[2018-08-24 18:58:50] 

@@ -1,0 +1,13 @@
+Useful vim commands
+-o create and start inserting in new blank line below current one
+-O opens and inserts blank line above
+## all motion commands (as well as many others like delete line/word etc)
+# can be prepended by a number to repeat that operation that number of times
+
+
+Hello this is how to write a line in vim
+what to do now?
+ooooooh that skind of neat
+
+
+
